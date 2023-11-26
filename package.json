@@ -1,0 +1,17 @@
+{
+  "name": "nouveau-dossier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd Front && npm start\" \"cd Back && npm run back\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "node-modules": "^1.0.1",
+    "react-bootstrap": "^2.9.1"
+  }
+}

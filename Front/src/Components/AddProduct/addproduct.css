@@ -1,0 +1,78 @@
+.adwya{
+    background-image: url('../Home/istockphoto-1317416781-612x612.jpg') ;
+height: 700px;
+} 
+
+.all{
+    position: absolute;
+    left: 80px;
+    top: 60px;
+    display: flex;
+   
+   width: 1300px;
+
+   
+}
+
+.custom-product-form-unique {
+  background-color: #3f3d3d;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-product-form-unique:hover {
+  transform: scale(1.05);
+}
+
+.custom-product-heading-unique {
+  text-align: center;
+  color: #3498db;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.custom-form-item-unique {
+  margin: 15px 0;
+}
+
+.custom-label {
+  display: block;
+  font-weight: bold;
+  color: #34db98;
+  margin-bottom: 5px;
+}
+
+.custom-input {
+  width: calc(100% - 16px);
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.custom-buttonnn {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-buttonnn:hover {
+  background-color: #2980b9;
+}
+
+  

@@ -1,0 +1,147 @@
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF; /* Blue color for healthcare */
+    text-align: center;
+  }
+  
+  .logo-text {
+    margin-bottom: -10px;
+  }
+  
+  .logo-subtext {
+    color: #28a11b; /* Dark gray for the subtext */
+  }
+
+
+.rabyyehdi {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: #2ecc71;
+  }
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .search {
+        margin-left: auto;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+.basket {
+    display: inline-block;
+  }
+  
+  .basket-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+  }
+  
+  .basket-link:hover {
+    color: #ff5733; /* Change color on hover */
+  }
+  
+  .basket-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    color: #ff6247; /* Basket icon color */
+  }
+  
+  .basket-count {
+    background: linear-gradient(to right, #4944f1, #6bf58b); /* Gradient background */
+    color: #090909;
+    padding: 5px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: background 0.3s;
+  }
+  
+  .basket-count:hover {
+    background: linear-gradient(to right, #ff8c33, #ff5733); /* Change background on hover */
+  }
+  
+  .nav-links li button {
+    background-color: #0015ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links li button:hover {
+    background-color: #0ce600;
+  }
+  

@@ -1,0 +1,47 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d59fa0, #483039, #8e878c);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #070707, #9b91913a, #191819, #555455);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+    .mb-44 {
+    color: #edeff1 ;
+    font-size: 25px ;
+    text-align: justify ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+text-decoration-color: rgb(15, 128, 0);
+    }
+.register{
+    background-image: url('../Home/istockphoto-1317416781-612x612.jpg') ;
+    height: 930px;
+    width: 1518px;
+}
+.h-100 {
+
+    height: auto !important;
+}
+.col-lg-6{
+    background-color: transparent !important
+
+}
+.rounded-3{
+    background-color: transparent !important
+}

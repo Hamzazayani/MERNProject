@@ -1,0 +1,70 @@
+.disp {
+  background-image: url('../Home/istockphoto-1317416781-612x612.jpg');
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  min-height: 700px;
+}
+  
+.card {
+  height: 80%;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-img-top {
+  height: 170px;
+  object-fit: cover;
+  border-bottom: 1px solid #e0e0e0;
+}
+  .card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: rgb(175, 174, 172);
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  
+  .card-text {
+    overflow: auto;
+    height: 50px;
+    font-size: 17px;
+    color: #201f1f;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+  }
+  .btn-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%; /* Make the button stretch horizontally */
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
